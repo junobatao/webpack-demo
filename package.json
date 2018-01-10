@@ -1,0 +1,22 @@
+{
+  "name": "study-webpack",
+  "version": "1.0.0",
+  "description": "study...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junobatao/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "taojun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junobatao/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/junobatao/webpack-demo#readme"
+}
