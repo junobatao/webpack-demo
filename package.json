@@ -4,7 +4,8 @@
   "description": "study...",
   "main": "index.js",
   "scripts": {
-    "test": "echo test..."
+    "dev": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors && cp www/index.html public/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/junobatao/webpack-demo/issues"
   },
-  "homepage": "https://github.com/junobatao/webpack-demo#readme"
+  "homepage": "https://github.com/junobatao/webpack-demo#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
 }
